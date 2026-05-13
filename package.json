@@ -1,0 +1,31 @@
+{
+  "name": "wheather-app",
+  "version": "1.0.0",
+  "description": "Weather app with a backend proxy for weather API.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "vitest run --environment jsdom",
+    "lint": "eslint .",
+    "build": "echo 'No build step required for vanilla JS app'"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "postcss": "^8.5.10",
+    "postcss-value-parser": "^4.2.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.10.0",
+    "globals": "^15.9.0",
+    "jsdom": "^29.0.2",
+    "vitest": "^4.1.5"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "SkySense - Real-Time Weather",
+  "short_name": "SkySense",
+  "description": "Animated weather forecasts, AQI, hourly & daily data.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f1420",
+  "theme_color": "#0f1420",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["weather", "utilities"],
+  "lang": "en-US"
+}
