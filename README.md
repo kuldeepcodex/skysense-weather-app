@@ -49,3 +49,4 @@ Use the corresponding design tokens:
 1. **Install Dependencies**: `npm install`
 2. **Local Development**: Run `npm start` or `node server.js`
 3. **Deployment**: This app is configured for Vercel. Push to main to trigger the deployment. Ensure environment variables (`WEATHER_API_KEY`) are set in your Vercel project settings.
+
